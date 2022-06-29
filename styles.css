@@ -1,0 +1,217 @@
+.info-bx:hover .med-wrap {
+    transform: translateX(140px);
+}
+
+.info-bx:hover .cont-wrap{
+    opacity: 1;
+    transform: translateY(-65px);
+}
+
+.cont-wrap{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all .3s ease-in-out;
+}
+
+.info-bx{
+    height: 260px;
+}
+
+.info-bx:hover .med-wrap span {
+    font-size: 60px !important;
+    color: #fff !important;
+}
+
+.med-wrap {
+    transform: translateX(0px);
+    transition: transform .3s ease-in-out;
+}
+
+.med-wrap span {
+    font-size: 30px !important;
+    color: gray !important;
+    transition: font-size .3s ease-in-out;
+}
+
+.icon{
+    margin-left: 10px !important;
+}
+
+@media only screen and (max-width: 1285px) {
+    .wgl-theme-header {
+        background-color: rgba(20, 19, 59, 1) !important;
+        color: #ffffff !important;
+    }
+
+    header.wgl-theme-header .wgl-mobile-header {
+        display: block;
+    }
+
+    .wgl-site-header,
+    .wgl-theme-header .primary-nav {
+        display: none;
+    }
+
+    .wgl-theme-header .hamburger-box {
+        display: inline-flex;
+    }
+
+    header.wgl-theme-header .mobile_nav_wrapper .primary-nav {
+        display: block;
+    }
+
+    .wgl-theme-header .wgl-sticky-header {
+        display: none;
+    }
+
+    .wgl-page-socials {
+        display: none;
+    }
+
+    body .wgl-theme-header.header_overlap {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+:root {
+    --zeptech-primary-color: #666AE5;
+    --zeptech-secondary-color: #43D9B3;
+    --zeptech-button-color-idle: #FFFFFF;
+    --zeptech-button-color-hover: #FFFFFF;
+    --zeptech-button-bg-color-idle: #666AE5;
+    --zeptech-button-bg-color-hover: #43D9B3;
+    --zeptech-back-to-top-color: #ffffff;
+    --zeptech-back-to-top-background: #666ae5;
+    --zeptech-body-background: #FFFFFF;
+    --zeptech-body-rgb-background: 255, 255, 255;
+    --zeptech-primary-rgb: 102, 106, 229;
+    --zeptech-secondary-rgb: 67, 217, 179;
+    --zeptech-content-rgb: 105, 105, 105;
+    --zeptech-header-rgb: 38, 38, 38;
+    --zeptech-header-font-family: Jost;
+    --zeptech-header-font-weight: 400;
+    --zeptech-header-font-color: #262626;
+    --zeptech-h1-font-family: Jost;
+    --zeptech-h1-font-size: 48px;
+    --zeptech-h1-line-height: 68px;
+    --zeptech-h1-font-weight: 600;
+    --zeptech-h1-text-transform: none;
+    --zeptech-h1-letter-spacing: 0.1em;
+    --zeptech-h2-font-family: Jost;
+    --zeptech-h2-font-size: 42px;
+    --zeptech-h2-line-height: 60px;
+    --zeptech-h2-font-weight: 600;
+    --zeptech-h2-text-transform: none;
+    --zeptech-h2-letter-spacing: 0.1em;
+    --zeptech-h3-font-family: Jost;
+    --zeptech-h3-font-size: 34px;
+    --zeptech-h3-line-height: 48px;
+    --zeptech-h3-font-weight: 600;
+    --zeptech-h3-text-transform: none;
+    --zeptech-h3-letter-spacing: 0.1em;
+    --zeptech-h4-font-family: Jost;
+    --zeptech-h4-font-size: 28px;
+    --zeptech-h4-line-height: 40px;
+    --zeptech-h4-font-weight: 600;
+    --zeptech-h4-text-transform: none;
+    --zeptech-h4-letter-spacing: 0.1em;
+    --zeptech-h5-font-family: Jost;
+    --zeptech-h5-font-size: 22px;
+    --zeptech-h5-line-height: 32px;
+    --zeptech-h5-font-weight: 600;
+    --zeptech-h5-text-transform: none;
+    --zeptech-h5-letter-spacing: 0.075em;
+    --zeptech-h6-font-family: Jost;
+    --zeptech-h6-font-size: 18px;
+    --zeptech-h6-line-height: 26px;
+    --zeptech-h6-font-weight: 600;
+    --zeptech-h6-text-transform: none;
+    --zeptech-h6-letter-spacing: 0.075em;
+    --zeptech-content-font-family: Catamaran;
+    --zeptech-content-font-size: 16px;
+    --zeptech-content-line-height: 1.875;
+    --zeptech-content-font-weight: 400;
+    --zeptech-content-color: #696969;
+    --zeptech-menu-font-family: Jost;
+    --zeptech-menu-font-size: 17px;
+    --zeptech-menu-line-height: 30px;
+    --zeptech-menu-font-weight: 500;
+    --zeptech-menu-letter-spacing: 0.025em;
+    ;
+    --zeptech-submenu-font-family: Jost;
+    --zeptech-submenu-font-size: 14px;
+    --zeptech-submenu-line-height: 30px;
+    --zeptech-submenu-font-weight: 500;
+    --zeptech-submenu-letter-spacing: 0.05em;
+    ;
+    --zeptech-submenu-color: #262626;
+    --zeptech-submenu-background: rgba(255, 255, 255, 1);
+    --zeptech-submenu-mobile-color: #ffffff;
+    --zeptech-submenu-mobile-background: rgba(20, 19, 59, 1);
+    --zeptech-submenu-mobile-overlay: rgba(34, 35, 40, 0.8);
+    --zeptech-bg-caret: url('data:image/svg+xml; utf8, <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="451.847px" height="451.847px" viewBox="0 0 451.847 451.847" preserveAspectRatio="none" fill="%23707477"><path xmlns="http://www.w3.org/2000/svg" d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751   c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0   c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/></svg>');
+    --zeptech-sidepanel-title-color: #ffffff;
+    --zeptech-elementor-container-width: 1200px;
+}
+
+@media only screen and (max-width: 1285px) {
+    .wgl-theme-header {
+        background-color: rgba(20, 19, 59, 1) !important;
+        color: #ffffff !important;
+    }
+
+    header.wgl-theme-header .wgl-mobile-header {
+        display: block;
+    }
+
+    .wgl-site-header,
+    .wgl-theme-header .primary-nav {
+        display: none;
+    }
+
+    .wgl-theme-header .hamburger-box {
+        display: inline-flex;
+    }
+
+    header.wgl-theme-header .mobile_nav_wrapper .primary-nav {
+        display: block;
+    }
+
+    .wgl-theme-header .wgl-sticky-header {
+        display: none;
+    }
+
+    .wgl-page-socials {
+        display: none;
+    }
+
+    body .wgl-theme-header.header_overlap {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 1200px) {
+    .page-header {
+        padding-top: 90px !important;
+        padding-bottom: 90px !important;
+        min-height: auto !important;
+    }
+
+    .page-header_content .page-header_title {
+        color: #262626 !important;
+        font-size: 30px !important;
+        line-height: 42px !important;
+    }
+
+    .page-header_content .page-header_breadcrumbs {
+        color: #262626 !important;
+        font-size: 14px !important;
+        line-height: 24px !important;
+    }
+}
+
+#scroll_up:not(:empty):before{
+    display: none;
+}
