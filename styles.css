@@ -240,3 +240,52 @@
 .fa-x{
     margin-left: -20px !important;
 }
+
+.line{
+    width: 100%;
+    height: 1px;
+    background: #000;
+}
+
+.btn {
+    width: 180px;
+    height: 60px;
+    position: relative;
+    cursor: pointer;
+    background: transparent;
+    border: none !important;
+    outline: none !important;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn-svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #493371;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+    border: none;
+    outline: none;
+  }
+  
+  .btn:hover .btn-svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: #493371;
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+  .btn span a{
+    color: #000;
+  }
