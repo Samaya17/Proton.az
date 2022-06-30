@@ -212,6 +212,31 @@
     }
 }
 
+@media (max-width: 792px){
+    .hero-title{
+        font-size: 35px !important;
+    }
+}
+
 #scroll_up:not(:empty):before{
     display: none;
+}
+
+.hero-title{
+    font-size: 60px;
+    font-family: inherit;
+}
+
+.slider-container{
+    padding-top: 50px;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    right: 3%;
+    top: 30%;
+}
+
+.fa-x{
+    margin-left: -20px !important;
 }

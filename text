@@ -1,0 +1,153 @@
+<div class="wp-block-themepunch-revslider">
+    <!-- START Slider Home 1 REVOLUTION SLIDER 6.5.9 -->
+    <p class="rs-p-wp-fix"></p>
+
+    <rs-module id="rev_slider_1_1" data-version="6.5.9">
+        <rs-slides>
+            <rs-slide style="position: absolute;"
+                data-key="rs-1" data-title="Slide"
+                data-in="o:0;" data-out="a:false;">
+                <img src="//wgl-demo.net/zeptech/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+                    alt="Slide" title="Home 1"
+                    class="rev-slidebg tp-rs-img rs-lazyload"
+                    data-lazyload="//wgl-demo.net/zeptech/wp-content/plugins/revslider/public/assets/assets/transparent.png"
+                    data-bg="c:linear-gradient(rgba(237,237,250,1) 0%, rgba(250,250,254,1) 70%, rgba(250,250,254,1) 100%);"
+                    data-parallax="off" data-no-retina>
+
+                <rs-layer id="slider-1-slide-1-layer-3"
+                    data-type="image" data-rsp_ch="on"
+                    data-xy="x:r;xo:-185px,-152px,-113px,-164px;y:t,m,m,m;yo:180px,10px,2px,-22px;"
+                    data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                    data-dim="w:719px,593px,424px,335px;h:767px,633px,452px,357px;"
+                    data-frame_0="sX:0.9;sY:0.9;"
+                    data-frame_1="st:1300;sp:1000;sR:1300;"
+                    data-frame_999="o:0;st:w;sR:6700;"
+                    style="z-index:11;"><img loading="lazy"
+                        src="//wgl-demo.net/zeptech/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+                        alt="image"
+                        class="tp-rs-img rs-lazyload"
+                        width="300" height="300"
+                        data-lazyload="	https://proton.az/assets/img/mockup.png"
+                        data-no-retina>
+                </rs-layer>
+                <rs-layer id="slider-1-slide-1-layer-6"
+                    data-type="text" data-rsp_ch="on"
+                    data-xy="xo:-120px,-67px,0,0;y:t,m,m,m;yo:228px,-160px,-181px,-200px;"
+                    data-text="w:normal;s:200,165,125,77;l:220,181,137,84;fw:500;"
+                    data-frame_0="o:1;"
+                    data-frame_0_chars="d:5;y:-100%;o:0;rZ:35deg;"
+                    data-frame_0_mask="u:t;"
+                    data-frame_1="st:450;sp:1200;sR:450;"
+                    data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;"
+                    data-frame_1_mask="u:t;"
+                    data-frame_999="o:0;st:w;sR:6650;"
+                    style="z-index:14;font-family:'Jost';text-transform:uppercase;">
+                    Proton
+                </rs-layer>
+                <rs-layer id="slider-1-slide-1-layer-7"
+                    data-type="text" data-color="#262626"
+                    data-rsp_ch="on"
+                    data-xy="xo:33px,50px,37px,20px;y:t,m,m,m;yo:350px,-53px,-126px,-130px;"
+                    data-text="w:normal;s:60,49,32,30;l:80,66,40,36;ls:6px,4px,3px,1px;fw:600;"
+                    data-frame_0="x:-100%;"
+                    data-frame_0_mask="u:t;"
+                    data-frame_1="st:550;sp:1000;sR:550;"
+                    data-frame_1_mask="u:t;"
+                    data-frame_999="o:0;st:w;sR:7450;"
+                    style="z-index:15;font-family:'Jost';text-transform:uppercase;">
+                    İşİnİzdəkİ <br />
+                    müsbət <br />
+                    zərrəcİk<span
+                        style="color:#43d9b3">.</span><br />
+                </rs-layer>
+                <rs-layer id="slider-1-slide-1-layer-8"
+                    data-type="text" data-color="#696969"
+                    data-xy="xo:33px,50px,37px,20px;y:t,m,m,m;yo:610px,70px,-14px,-30px;"
+                    data-text="w:normal;s:22,18,16,16;l:30,24,22,20;"
+                    data-dim="w:auto,auto,291.141px,179px;"
+                    data-rsp_bd="off"
+                    data-frame_0="sX:0.9;sY:0.9;"
+                    data-frame_1="e:power2.inOut;st:890;sp:1000;sR:890;"
+                    data-frame_999="o:0;st:w;sR:7110;"
+                    style="z-index:16;font-family:'Catamaran';">
+                    Your
+                    business from creative idea to launching
+                </rs-layer>
+                <a id="slider-1-slide-1-layer-9"
+                    class="rs-layer rev-btn"
+                    href="https://wgl-demo.net/zeptech/contacts/"
+                    target="_self" data-type="button"
+                    data-xy="xo:35px,50px,37px,20px;y:t,m,m,m;yo:732px,190px,112px,70px;"
+                    data-text="w:normal;s:16,13,16,15;l:20,16,20,20;fw:500;"
+                    data-dim="minh:0px,none,none,none;"
+                    data-rsp_bd="off"
+                    data-padding="t:22,18,18,15;r:55,45,45,35;b:22,18,18,15;l:55,45,45,35;"
+                    data-border="bor:5px,5px,5px,5px;"
+                    data-frame_0="x:-100%;"
+                    data-frame_0_mask="u:t;"
+                    data-frame_1="st:2160;sp:1000;sR:2160;"
+                    data-frame_1_mask="u:t;"
+                    data-frame_999="o:0;st:w;sR:5840;"
+                    data-frame_hover="bgc:#43d9b3;bor:5px,5px,5px,5px;sp:400ms;e:power1.inOut;bri:100%;"
+                    style="z-index:17;background-color:#666ae5;font-family:'Jost';">Get
+                    Started
+                </a>
+                <a id="slider-1-slide-1-layer-10"
+                    class="rs-layer"
+                    href="https://wgl-demo.net/zeptech/contacts/"
+                    target="_self" data-type="button"
+                    data-color="#262626"
+                    data-xy="xo:244px,250px,41px,20px;y:t,m,m,m;yo:749px,190px,199px,146px;"
+                    data-text="w:normal;s:16,13,16,15;l:30,24,24,20;fw:500;"
+                    data-rsp_bd="off" data-frame_0="y:100%;"
+                    data-frame_0_mask="u:t;"
+                    data-frame_1="st:2230;sp:1200;sR:2230;"
+                    data-frame_1_mask="u:t;"
+                    data-frame_999="o:0;st:w;sR:5570;"
+                    data-frame_hover="c:#43d9b3;bgc:rgba(67,217,179,0);sp:400ms;"
+                    style="z-index:18;font-family:'Jost';"><i
+                        class="flaticon flaticon-telegram"
+                        style="color:#5b9ff2; font-size:22px; vertical-align: middle; margin-right:14px;"></i>Join
+                    Us on Telegram
+                </a>
+                <rs-layer id="slider-1-slide-1-layer-11"
+                    data-type="shape" data-rsp_ch="on"
+                    data-xy="xo:35px,50px,37px,20px;y:t,m,m,m;yo:680px,120px,42px,13px;"
+                    data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                    data-dim="w:570px,470px,357px,220px;h:1px;"
+                    data-frame_0="sX:0.9;sY:0.9;"
+                    data-frame_1="e:power2.inOut;st:2830;sp:1000;sR:2830;"
+                    data-frame_999="o:0;st:w;sR:5170;"
+                    style="z-index:19;background-color:rgba(0,0,0,0.1);">
+                </rs-layer>
+            </rs-slide>
+        </rs-slides>
+    </rs-module>
+    <script type="text/javascript">
+        setREVStartSize({
+            c: 'rev_slider_1_1',
+            rl: [1240, 1201, 778, 480],
+            el: [900, 760, 650, 580],
+            gw: [1240, 1024, 778, 480],
+            gh: [900, 760, 650, 580],
+            type: 'standard',
+            justify: '',
+            layout: 'fullwidth',
+            mh: "0"
+        });
+        if (window.RS_MODULES !== undefined && window
+            .RS_MODULES
+            .modules !== undefined && window.RS_MODULES
+            .modules[
+                "revslider11"] !== undefined) {
+            window.RS_MODULES.modules["revslider11"].once =
+                false;
+            window.revapi1 = undefined;
+            if (window.RS_MODULES.checkMinimal !==
+                undefined) window
+                .RS_MODULES.checkMinimal()
+        }
+    </script>
+    </rs-module-wrap>
+    <!-- END REVOLUTION SLIDER -->
+</div>
